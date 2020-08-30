@@ -110,5 +110,6 @@ namespace StatisticaTest
             int[] rispsosta = statisticaLibrary.statistica.Positivi(valore);
             CollectionAssert.AreEquivalent(aspettato, rispsosta);
         }
+
     }
 }
